@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Tran Thien Chien\'s Site',
+  tagline: 'Software Engineer',
+  favicon: 'img/golden.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -64,19 +64,19 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Chien\'s site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/golden.png',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'goldenPay',
             position: 'left',
-            label: 'Tutorial',
+            label: 'GoldenPay'
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'My Learning', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -91,25 +91,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'GoldenPay',
+                to: '/docs/golden_pay/intro',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'My Learning',
+                to: '/blog',
               },
             ],
           },
@@ -117,17 +104,21 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'GitHub',
+                href: 'https://github.com/chientranthien',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/chien-tran-thien-529360137/',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/kt3n4gKH',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Tran Thien Chien. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
